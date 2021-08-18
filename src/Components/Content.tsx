@@ -2,6 +2,7 @@ import React from "react";
 import TaskList from "./TaskList";
 import { Box, Button, Flex } from "theme-ui";
 import { theme } from "../shared/theme";
+import Icon from "../shared/Icon";
 
 const Content = () => {
   return (
@@ -43,7 +44,7 @@ const Content = () => {
             color: theme.colors.text[0],
           }}
         >
-          <i className="fa fa-ellipsis-h" />
+          <Icon name="elipsis" />
         </Button>
       </Flex>
       <TaskList />

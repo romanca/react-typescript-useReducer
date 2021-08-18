@@ -1,5 +1,6 @@
 import React from "react";
 import { Flex, Box, Input } from "theme-ui";
+import Icon from "../shared/Icon";
 import { theme } from "../shared/theme";
 
 const Header = () => {
@@ -48,7 +49,7 @@ const Header = () => {
             border: `1px solid ${theme.colors.border[0]}`,
           }}
         >
-          <i className="fa fa-search" />
+          <Icon name="search" />
         </Flex>
         <Flex style={{ width: theme.sizes[12] }}>
           <Input

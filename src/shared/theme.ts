@@ -1,7 +1,13 @@
 export const theme = {
   colors: {
     text: ["#3e69e4", "#34373d", "#767678"],
-    background: ["#346fef", "rgba(244, 246, 255, 0.8)", "white", "#f9f9f9"],
+    background: [
+      "#346fef",
+      "rgba(244, 246, 255, 0.8)",
+      "white",
+      "#f9f9f9",
+      "red",
+    ],
     border: ["rgba(244, 246, 255, 0.8)", "lightgrey", "grey"],
   },
   spaces: [
