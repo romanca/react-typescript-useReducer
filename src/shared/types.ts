@@ -1,4 +1,4 @@
-interface Task {
+interface Todo {
   text: string;
   complete?: boolean;
   id: number;
@@ -9,7 +9,7 @@ interface Task {
   default?: boolean;
 }
 
-interface List {
+interface Label {
   title: string;
   id: number;
   deleted?: boolean;
