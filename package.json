@@ -1,8 +1,10 @@
 {
   "name": "react-usereducer-typescript",
+  "homepage": "https://romanca.github.io/react-typescript-useReducer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,14 +14,15 @@
     "styled-components": "^5.3.0",
     "theme-ui": "^0.10.0",
     "typescript": "^4.3.5",
-    "web-vitals": "^1.0.1",
-    "@fortawesome/fontawesome-free": "^5.15.2"
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
   "devDependencies": {
     "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.9",
-    "@types/styled-components": "^5.1.12"
+    "@types/styled-components": "^5.1.12",
+    "gh-pages": "^3.2.3"
   }
 }
