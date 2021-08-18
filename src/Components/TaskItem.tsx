@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex } from "theme-ui";
+import Icon from "../shared/Icon";
 import { theme } from "../shared/theme";
 
 const TaskItem = () => {
@@ -34,7 +35,7 @@ const TaskItem = () => {
               justifyContent: "center",
             }}
           >
-            <i className="fa fa-circle-thin" />
+            <Icon name="thinCircle" />
           </Flex>
           <Box
             p={[theme.spaces[12], theme.spaces[13]]}
@@ -72,7 +73,7 @@ const TaskItem = () => {
               background: "transparent",
             }}
           >
-            <i className="fa fa-star-o" />
+            <Icon name="emptyStar" />
           </Flex>
         </Flex>
       </Box>

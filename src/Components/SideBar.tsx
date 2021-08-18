@@ -1,5 +1,6 @@
 import React from "react";
 import { Flex, Box, Input, Button } from "theme-ui";
+import Icon from "../shared/Icon";
 import { theme } from "../shared/theme";
 
 const SideBar = () => {
@@ -41,8 +42,8 @@ const SideBar = () => {
             cursor: "pointer",
           }}
         >
-          <i
-            className="fa fa-angle-left"
+          <Icon
+            name="leftArrow"
             style={{ fontSize: "1.6rem", color: "#465efc", marginLeft: -3 }}
           />
         </Button>
@@ -65,7 +66,7 @@ const SideBar = () => {
             alignItems: "center",
           }}
         >
-          <i className="fa fa-gg" />
+          <Icon name="gg" />
         </Flex>
         <Flex
           sx={{
